@@ -1,0 +1,53 @@
+
+* {
+	box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+.container-fluid {
+	background-color: white;
+}
+
+.introduce {
+	text-align: center;
+	margin-top: 100px;
+	background: url(../pictures/macbook.png) no-repeat center;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* height: 800px; */
+}
+.introduce h1 {
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 5em;
+	color:white;
+}
+.introduce h2 {
+	font-weight: bold;
+	color: #62C561;
+}
+.introduce h3 {
+	font-weight: bold;
+	color:#887c83;
+	font-size: 1.3em;
+	margin-bottom: 400px;
+}
+
+footer {
+	/*height: 325px; */
+}
+footer ul {
+	list-style-type: none;
+}
+#footersm {
+
+	color: #848e97;
+	font-size: 1em;
+}
+footer h3 {
+	font-weight: bold;
+}
